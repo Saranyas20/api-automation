@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      },
+      "required": ["city", "country"]
+    }
+  },
+  "required": ["data"]
+}
